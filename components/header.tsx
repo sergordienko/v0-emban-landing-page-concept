@@ -31,6 +31,9 @@ export function Header() {
             <Link href="#use-cases" className="text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground">
               Use Cases
             </Link>
+            <Link href="#pricing" className="text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground">
+              Pricing
+            </Link>
             <Link href="#faq" className="text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground">
               FAQ
             </Link>
@@ -83,6 +86,13 @@ export function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Use Cases
+              </Link>
+              <Link 
+                href="#pricing" 
+                className="text-xs uppercase tracking-wider text-muted-foreground"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Pricing
               </Link>
               <Link 
                 href="#faq" 

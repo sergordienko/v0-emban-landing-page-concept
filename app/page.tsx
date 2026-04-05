@@ -6,6 +6,7 @@ import { FlowSection } from "@/components/flow-section"
 import { FeatureGrid } from "@/components/feature-grid"
 import { IntegrationSection } from "@/components/integration-section"
 import { UseCases } from "@/components/use-cases"
+import { Pricing } from "@/components/pricing"
 import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 
@@ -20,6 +21,7 @@ export default function Home() {
       <FeatureGrid />
       <IntegrationSection />
       <UseCases />
+      <Pricing />
       <FAQ />
       <Footer />
     </main>
