@@ -22,6 +22,9 @@ export function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden items-center gap-6 md:flex">
+            <Link href="/docs" className="text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground">
+              Docs
+            </Link>
             <Link href="#features" className="text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground">
               Features
             </Link>
@@ -66,6 +69,13 @@ export function Header() {
         {mobileMenuOpen && (
           <div className="border-t border-border py-4 md:hidden">
             <nav className="flex flex-col gap-3">
+              <Link 
+                href="/docs" 
+                className="text-xs uppercase tracking-wider text-muted-foreground"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Docs
+              </Link>
               <Link 
                 href="#features" 
                 className="text-xs uppercase tracking-wider text-muted-foreground"
